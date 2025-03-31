@@ -1,0 +1,60 @@
+.project-list {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 1rem;
+  /* align-items: start;
+  row-gap: 1rem; */
+}
+
+.project-list .add-update {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  width: 30%;
+  border-right: 1px solid black;
+  padding: 1rem;
+}
+
+.project-list .add-update .title {
+  font-size: 3rem;
+}
+
+.project-list .add-update section {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+  /* padding-left: 3rem; */
+}
+
+.project-list .add-update section form {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+  /* padding-left: 3rem; */
+}
+
+.project-list .add-update section form button {
+  background-color: white;
+}
+
+input[type="text"] {
+  height: 3rem;
+  border: none;
+  padding-left: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 10px;
+}
+
+.project-list .list {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  /* align-content: start; */
+  row-gap: 1rem;
+}

@@ -1,0 +1,44 @@
+p {
+  font-family: Poppins;
+}
+
+.project-card {
+  width: 30%;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.project-card .title {
+  font-size: 1.5rem;
+}
+
+.project-card .description {
+  font-size: 0.75rem;
+}
+
+.project-card .options {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-card .options button {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.link {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+}
+
+.project-card .options .see-details {
+  background-color: white;
+}
