@@ -1,0 +1,71 @@
+.task-list {
+  width: 100%;
+}
+
+.task-list .table-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.task-list .table-container .table-row {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.task-list .table-container .table-row .col0 {
+  width: 10%;
+  text-align: start;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.task-list .table-container .table-row .col0 .status {
+  width: 2rem;
+  height: 2rem;
+}
+
+.task-list .table-container .table-row .col1 {
+  width: 60%;
+  text-align: start;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.task-list .table-container .table-row .col2 {
+  width: 30%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.task-list .table-container .table-row .col2 button {
+  width: 50%;
+  font-family: "Poppins";
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 0.25rem;
+}
+
+.task-list .table-container .table-row .col2 button,
+.task-list .table-container .table-row .col2 p {
+  flex-grow: 1;
+}
+
+.task-list .table-container .table-row .col2 .delete {
+  width: fit-content;
+  background-color: tomato;
+  border: 1px solid black;
+  flex-grow: 0;
+}
+
+.task-list .table-row .col {
+  padding: 0.5rem;
+}
